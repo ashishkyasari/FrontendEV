@@ -1,0 +1,14 @@
+/* Default Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --red: #e94235;
+    --blue: #4285f4;
+    --yellow: #fabb05;
+    --green: #34a853;
+}

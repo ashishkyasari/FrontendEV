@@ -1,0 +1,111 @@
+#signup-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+#signup_form {
+    width: 25rem;
+    margin: auto;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 3px hwb(206 75% 19%), -1em 0 3em hsl(203, 12%, 78%);
+    border-radius: 15px;
+}
+
+#signup_form #signup_heading{
+    padding-top: 10px;
+    font-weight: 700;
+    color: var(--yellow);
+}
+
+#signup_form .signup_hr {
+    margin: 10px;
+    height: 3px;
+    background-color: var(--blue);
+    width: 100%;
+    opacity: 100%;
+}
+
+#signup_form .signup_label {
+    justify-content: left;
+    font-weight: 600;
+    margin: 5px;
+    color: var(--yellow);
+}
+
+#signup_form .signup_input {
+    font-weight: 400;
+    text-align: center;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 7px;
+    display: block;
+    border: none;
+    box-shadow: inset 0px 0px 1px 1px hsl(203deg 12% 78%);
+    width: 85%;
+}
+
+#signup_form #or {
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0px;
+    text-align: center;
+    margin: 4px;
+}
+
+#signup_form #or::before,
+#signup_form #or::after {
+    position: absolute;
+    width: 45%;
+    height: 3px;
+    background-color: var(--blue);
+    content: "";
+}
+
+#signup_form #or::before {
+    left: 0;
+}
+
+#signup_form #or::after {
+    right: 0;
+}
+
+#signup_form .signup_buttons {
+    margin: 12px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    width: 80%;
+    background-color: var(--blue);
+    border: 2px solid;
+}
+
+#signup_form .signup_buttons:hover {
+    background-color: var(--yellow);
+}
+
+/* Media Quary for Mobile */
+@media (max-width: 450px) {
+    #signup_container {
+        width: 100%;
+    }
+
+    #signup_form {
+        width: 90%;
+    }
+
+    #signup_form .signup_buttons {
+        width: 50vw;
+    }
+}

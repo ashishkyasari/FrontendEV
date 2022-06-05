@@ -1,0 +1,88 @@
+const Unitsdata = [
+    {
+        title: "First Offer",
+        type: "special offer",
+        description: "This is description of First offer",
+        units: 1,
+        price: 10,
+    },
+    {
+        title: "Second Offer",
+        type: "special offer",
+        description: "This is description of Second offer",
+        units: 2,
+        price: 20,
+    },
+    {
+        title: "Third Offer",
+        type: "offer",
+        description: "This is description of Third offer",
+        units: 3,
+        price: 30,
+    },
+    {
+        title: "Fourth Offer",
+        type: "special offer",
+        description: "This is description of Fourth offer",
+        units: 4,
+        price: 40,
+    },
+    {
+        title: "Fifth Offer",
+        type: "special offer",
+        description: "This is description of Fifth offer",
+        units: 5,
+        price: 50,
+    },
+    {
+        title: "Sixth Offer",
+        type: "offer",
+        description: "This is description of Sixth offer",
+        units: 6,
+        price: 60,
+    },
+    {
+        title: "Seventh Offer",
+        type: "special offer",
+        description: "This is description of Seventh offer",
+        units: 7,
+        price: 70,
+    },
+    {
+        title: "Eighth Offer",
+        type: "special offer",
+        description: "This is description of Eighth offer",
+        units: 8,
+        price: 80,
+    },
+    {
+        title: "Ninth Offer",
+        type: "offer",
+        description: "This is description of Ninth offer",
+        units: 9,
+        price: 90,
+    },
+    {
+        title: "Tenth Offer",
+        type: "special offer",
+        description: "This is description of Tenth offer",
+        units: 10,
+        price: 100,
+    },
+    {
+        title: "Eleventh Offer",
+        type: "special offer",
+        description: "This is description of Eleventh offer",
+        units: 11,
+        price: 110,
+    },
+    {
+        title: "Twelfth Offer",
+        type: "offer",
+        description: "This is description of Twelfth offer",
+        units: 12,
+        price: 120,
+    },
+];
+
+export default Unitsdata;
