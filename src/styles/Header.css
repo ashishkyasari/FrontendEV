@@ -68,12 +68,11 @@ header #nav .nav-links {
     text-decoration: none;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    border-radius: 15px;
 }
 
 header #nav .nav-links:hover {
     background-color: var(--green);
-    /* background-color: #04e762; */
-    border-radius: 15px;
 }
 
 header img {
