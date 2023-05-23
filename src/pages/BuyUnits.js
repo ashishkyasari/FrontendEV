@@ -4,6 +4,7 @@ import Unitsdata from "../data/Unitsdata";
 import Card from "./Card";
 import { useLocation } from 'react-router-dom';
 import axios from "axios";
+import Layout1 from "../components/Layout1";
 
 function BuyUnits(props) {
 
@@ -37,14 +38,14 @@ function BuyUnits(props) {
     }, []);
 
     return (
-        <Layout>
+        <Layout1>
             {
                 console.log(data)
             }
             <section id="BuyUnits">
                 {data ? data.map((element, key) => <Card key={key} id={element._id} title={element.name} Slots={user.Slots} time={time}  units={element.location} price={element.price}/>): alert("No Projects")}
             </section>
-        </Layout>
+        </Layout1>
     );
 }
 

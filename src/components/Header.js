@@ -41,7 +41,7 @@ function Header() {
                             <li className={splitLocation[1] === "form" ? "navbar-active" : ""}><Link className="nav-links" to="/form">Form</Link></li>
                             <li className={splitLocation[1] === "scanner" ? "navbar-active" : ""}><Link className="nav-links" to="/scanner">Scanner</Link></li>
                             <li className={splitLocation[1] === "contact-us" ? "navbar-active" : ""}><Link className="nav-links" to="/contact-us">Contact</Link></li>
-                            <li className={((splitLocation[1] === "login") || (splitLocation[1] === "signup")) ? "navbar-active" : ""}><Link className="nav-links" to="/login">Join</Link></li>
+               
                         </>
                     ) : (<>
                         <li className={splitLocation[1] === "form" ? "navbar-active" : ""}><Link className="nav-links" to="/form"><img src={Form} alt="" /></Link></li>

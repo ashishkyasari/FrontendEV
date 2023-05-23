@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../components/Layout";
+import Layout1 from "../components/Layout1";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -33,7 +33,7 @@ function SignUp() {
 
     return (
         
-        <Layout>
+        <Layout1>
             {
                 
             }
@@ -104,7 +104,7 @@ function SignUp() {
                     <Link className="signup_buttons" to="/login">Login</Link>
                 </form>
             </div>
-        </Layout>
+        </Layout1>
     );
 }
 

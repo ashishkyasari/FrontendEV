@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Layout1 from "../components/Layout1";
 
 function Login({setLoginUser}) {
 
@@ -37,7 +38,7 @@ function Login({setLoginUser}) {
     };
 
     return (
-        <Layout>{
+        <Layout1>{
             console.log(user)}
             <div id="login-container">
                 <form id="login_form" onSubmit={handleSubmit}>
@@ -79,7 +80,7 @@ function Login({setLoginUser}) {
                     <Link className="login_buttons" to="/signup">Sign Up</Link>
                 </form>
             </div>
-        </Layout>
+        </Layout1>
     );
 }
 
