@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* > * {
+    font-family: "Poppins", cursive;
+    margin: 0;
+}
+
+body{
+ /* background: #0f0c29;  /* fallback for old browsers */
+ /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.register{
+  max-width: 978px;
+  width: 100vw;
+  display:flex;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 10px #e9ecef; */
+  background-color: white;
+  box-shadow: 0px 3px 3px 3px hwb(206 75% 19%), -1em 0 3em hsl(203, 12%, 78%);
+  border-radius: 15px;
+}
+
+.register span{
+  color: #adb5bd;
+}
+
+#form{
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#form >  input, .btn{
+  border: 1px solid #e9ecef;
+  padding: .9em 1em;
+}
+
+#form > input:focus{
+  outline: none;
+}
+
+#form > .btn{
+  background-color: #003049;
+  color: #e9ecef;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  gap: 1em;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.register .col-1{
+  margin: auto;
+  padding: 3em 0;
+}
+
+.register .col-2 img{
+  width: 480px;
+  height: 100%;
+  object-fit: cover;
+  align-self: flex-end;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: none;
+}
+
+@media screen and (min-width: 860px)  {
+  .register .col-2 img{
+    display: initial;
+  }
+}
+
+.custom-time-picker {
+  /* Add your custom styles here */
+  /* Example styles: */
+  font-size: 16px;
+  padding: 10px;
+  width: 200px;
+}
+.react-time-picker_inputGroup_input {
+  font-size: 15px; /* Adjust the font size as per your preference */
+   /* Adjust the padding as per your preference */
+  width: 50px; /* Adjust the width as per your preference */
+}
+
+/* styles.css */
+.react-time-picker_inputGroup_hour {
+  font-size: 16px; /* Adjust the font size as per your preference */
+  /* Adjust the padding as per your preference */
+  width: 80px; /* Adjust the width as per your preference */
+}
+
+.react-time-picker_inputGroup_divider {
+  font-size: 16px; /* Adjust the font size as per your preference */
+  padding: 10px; /* Adjust the padding as per your preference */
+}
+
+.react-time-picker_inputGroup_minute {
+  font-size: 16px; /* Adjust the font size as per your preference */
+   /* Adjust the padding as per your preference */
+  width: 80px; /* Adjust the width as per your preference */
+}
+.Tpick .react-time-picker react-time-picker--closed react-time-picker--enabled custom-time-picker-container .react-time-picker_wrapper .react-time-pickerinputGroup .react-time-pickerinputGroupinput react-time-pickerinputGroup_hour {
+  width: 500px; /* Adjust the width as per your preference */
+}
+
+.react-time-picker_inputGroup_input {
+  /* Add your custom styles here */
+  /* Example styles: */
+  width: 50px; /* Adjust the width as per your preference */
+}
+
+.react-time-picker_inputGroupinput .react-time-pickerinputGroup_hour{
+  width: 150px
+}
+
+
+.react-time-picker_inputGroup_hour,
+.react-time-picker_inputGroup_minute {
+  /* Add your custom styles here */
+  /* Example styles: */
+  width: 60px; /* Adjust the width as per your preference */
+  height: 20px; /* Adjust the height as per your preference */
+  font-size: 16px; /* Adjust the font size as per your preference / / Adjust the padding as per your preference */
+  flex: 1; /* Allow the inputs to grow and fill the available space */
+  min-width: 50px;
+}

@@ -6,6 +6,7 @@ import Scanner from "../images/Scanner.svg"
 import BuyUnits from "../images/BuyUnits.svg"
 import ContactUs from "../images/ContactUs.svg"
 import Profile from "../images/Profile.svg"
+import Form from "../pages/form";
 
 function Header() {
 
@@ -37,13 +38,13 @@ function Header() {
                         <>
                             <li className={splitLocation[1] === "" ? "navbar-active" : ""}><Link className="nav-links" to="/">Home</Link></li>
                             <li className={splitLocation[1] === "buy-units" ? "navbar-active" : ""}><Link className="nav-links" to="/buy-units">Units</Link></li>
-                            <li className={splitLocation[1] === "location" ? "navbar-active" : ""}><Link className="nav-links" to="/location">Location</Link></li>
+                            <li className={splitLocation[1] === "form" ? "navbar-active" : ""}><Link className="nav-links" to="/form">Form</Link></li>
                             <li className={splitLocation[1] === "scanner" ? "navbar-active" : ""}><Link className="nav-links" to="/scanner">Scanner</Link></li>
                             <li className={splitLocation[1] === "contact-us" ? "navbar-active" : ""}><Link className="nav-links" to="/contact-us">Contact</Link></li>
                             <li className={((splitLocation[1] === "login") || (splitLocation[1] === "signup")) ? "navbar-active" : ""}><Link className="nav-links" to="/login">Join</Link></li>
                         </>
                     ) : (<>
-                        <li className={splitLocation[1] === "location" ? "navbar-active" : ""}><Link className="nav-links" to="/location"><img src={Location} alt="" /></Link></li>
+                        <li className={splitLocation[1] === "form" ? "navbar-active" : ""}><Link className="nav-links" to="/form"><img src={Form} alt="" /></Link></li>
                         <li className={splitLocation[1] === "scanner" ? "navbar-active" : ""}><Link className="nav-links" to="/scanner"><img src={Scanner} alt="" /></Link></li>
                     </>)}
                 </ul>

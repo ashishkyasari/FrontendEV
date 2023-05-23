@@ -21,8 +21,6 @@ function SignUp() {
 
     const register = () => {
         console.log(user);
-        user.phoneno = "9579203196"
-        console.log(user);
         const { name, phoneno, email, password} = user
         if (name && email && password && phoneno) {
             axios.post("http://localhost:5001/register", user).then(res => {
